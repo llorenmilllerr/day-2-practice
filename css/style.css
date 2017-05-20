@@ -1,0 +1,44 @@
+.row div {
+    outline: 3px solid #000;
+}
+
+h1 {
+   margin: 5px;
+   font-size: 24px;
+}
+
+.one {
+  height: 175px;
+  background-color: #0000ff;
+}
+
+.two {
+  height: 75px;
+  background-color: #009933;
+}
+
+.three, .three>* {
+  height: 275px;
+}
+
+.content {
+  background-color: #ff0000;
+}
+
+.aside {
+  background-color: #00eeff;
+}
+
+.four, .promo {
+  height: 200px;
+  background-color: #eeaa00;
+}
+
+.footer {
+  height: 75px;
+  background-color: #000000;
+}
+
+.footer>h1 {
+  color: #fff;
+}
