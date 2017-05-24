@@ -1,0 +1,77 @@
+.row div {
+    outline: 3px solid #000;
+}
+
+h1 {
+   margin: 5px;
+   font-size: 24px;
+   outline: none;
+}
+
+.header, .nav {
+  height: 100%;
+}
+
+.one {
+  height: 175px;
+  background-color: #0000ff;
+}
+
+.two {
+  height: 75px;
+  background-color: #009933;
+}
+
+.three, .three>* {
+  height: 275px;
+}
+
+.content {
+  background-color: #ff0000;
+}
+
+.aside {
+  background-color: #00eeff;
+}
+
+.four, .promo {
+  height: 200px;
+  background-color: #eeaa00;
+}
+
+.five {
+  height: 75px;
+  position: relative;
+}
+
+.footer {
+  height: 100%;
+  background-color: #000000;
+}
+
+.footer>h1 {
+  color: #fff;
+}
+
+.query-test {
+  width: 50%;
+  background-color: #ff99ff;
+  height: 400px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width:900px) {
+  .query-test {
+    width: 80%;
+    background-color: #ff0000;
+  }
+}
+
+@media screen and (max-width: 500px;) {
+  .lol {
+    width: 100%;
+    height: 100px;
+    background-color: #fff999;
+  }
+}
